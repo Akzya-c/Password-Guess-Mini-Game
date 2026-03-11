@@ -1,14 +1,11 @@
 import random
-
 def password_puzzle():
     words = ["code", "data", "loop", "hash", "byte", "node"]
     password = random.choice(words)
     attempts = 5
-
     print("Password Cracking Puzzle (Educational)")
     print("Hints:", len(password), "-letter lowercase word")
     print("You have", attempts, "attempts")
-
     while attempts > 0:
         guess = input("Enter password guess: ").lower()
 
