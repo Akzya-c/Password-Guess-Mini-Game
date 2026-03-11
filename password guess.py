@@ -22,7 +22,7 @@ def password_puzzle():
                     correct += 1
 
             print("Incorrect password")
-            print("Correct letters in correct position:", correct)
+            print("Correct letters in correct positions:", correct)
 
         attempts -= 1
         print("Attempts left:", attempts)
