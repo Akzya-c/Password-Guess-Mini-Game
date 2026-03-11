@@ -6,7 +6,7 @@ def password_puzzle():
     attempts = 5
 
     print("Password Cracking Puzzle (Educational)")
-    print("Hint:", len(password), "-letter lowercase word")
+    print("Hints:", len(password), "-letter lowercase word")
     print("You have", attempts, "attempts")
 
     while attempts > 0:
